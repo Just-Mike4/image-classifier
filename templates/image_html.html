@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>
+        Image Prediction
+    </title>
+</head>
+
+<body>
+    <h1 align="center"><b>Image Prediction Model</b></h1>
+    <form align="center" method="post" class="g-1 text-center" action="/submit" enctype="multipart/form-data">
+        <input class="form-control" type="file" name="imagefile" />
+        <br>
+        <br>
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+    <br>
+    <br>
+    <p align="center"> {{prediction}} </p>
+</body>
+
+</html>
